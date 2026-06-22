@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem 1rem;  
+    gap: 5rem;
 }
 
 .header_navbar{
@@ -138,9 +139,74 @@
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     height: 100%;
-    gap: 2rem;
+    gap: 1rem;
     padding: 4rem;
-    
+}
+
+.leftside_elements{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.leftside_elements img{
+    border-radius: 100%;
+}
+
+.leftside_elements h2{
+    display: block;
+    align-self: center;
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    font-size: 2.2rem;
+}
+
+.leftside_introheader h2{
+    display: block;
+    align-self: center;
+    background-color: #fff;
+    color: #14b78a;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    font-size: 2.2rem;
+}
+
+.section_leftside button{
+    width: 30%;
+    height: 3rem;
+    border-radius: 100px;
+    border: none;
+    background-color: #535da2;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside-whitecircle{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 80px;
+    right: 4rem;
+}
+
+.rightside-whitecircle img{
+    height: 550px;
+    position: absolute;
+    top: -1.5rem;
+    right: 2rem;
 }
 
 

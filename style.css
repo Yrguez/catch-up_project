@@ -208,7 +208,34 @@
     top: -1.5rem;
     right: 2rem;
 }
-
-
-
 /* Header unique section end */
+
+
+/* Main First Section */
+.firstsection-wrapper{
+    max-width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper_leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper_rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside_header{
+    display: flex;
+    gap: 20px;
+}
+
+/* Main First Section End */

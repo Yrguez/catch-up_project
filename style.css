@@ -275,7 +275,6 @@ main{
     text-align: center;
 }
 
-
 .rightside_texts{
     width: 30rem;
     display: flex;
@@ -299,6 +298,116 @@ main{
 /* Main First Section End */
 
 /* Main Second Section */
+
+.main_wrapper_secondsection{
+    display: flex;
+    justify-content: center;
+}
+
+.secondsection-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-color: #f9f9f9
+;
+    padding: 8rem 0;
+    
+}
+
+.wrapper-leftside{
+    display: flex;
+    justify-content: center;
+
+}
+
+.leftside-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 1px #999;
+}
+.leftside-content h2{
+    border-bottom: 1px solid #f9f9f9aa;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.leftside-content .content-table{
+    text-align: left;
+    width: inherit;
+}
+
+.content-table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 1.3rem;
+    width: inherit;
+}
+
+.content-table tbody th{
+    border-right: 1px solid #eee;
+    padding: 0rem 2rem;
+    width: 6rem;
+    color: #14b78a;
+    font-weight: bold;
+}
+
+.content-table tbody tr{
+    width: 35rem;
+}
+
+.content-table tbody tr:nth-child(2n){
+    background-color: #fff;
+}
+
+.content-table tbody td{
+    padding: 10px;
+    color: #9c9c9c;
+}
+
+.wrapper-rightside{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside-content{
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 6rem;
+    justify-items: center;
+}
+
+.content-wrapper .block{
+    width: 9rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-wrapper .block h2{
+    color: #000;
+    font-size: 3.8rem;
+}
+
+.content-wrapper .block span{
+    color: #14b78a;
+    font-weight: bold;
+}
 
 
 /* Main Second Section End */

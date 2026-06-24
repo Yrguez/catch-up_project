@@ -566,3 +566,82 @@ main{
 }
 
 /* Main Fourth Section End */
+
+/* Main Fifth Section */
+
+.main_wrapper_fifthsection{
+    width: 100%;
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+.fifthsection-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6rem;
+    padding: 0 3.5rem;
+}
+
+.wrapper-header-f{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14b78a;
+    padding: 0.5rem;
+    border-radius: 10px;
+    gap: 1rem;
+    align-self: self-end;
+}
+
+.wrapper-header-f .header-text{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper-body{
+    width: 100%;
+}
+
+.body-cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.cards{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 1px #999;
+}
+
+.cards span{
+    color: #14b78a;
+}
+
+.cards h2{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cards_middle-picture{
+    rotate: 15deg;
+    position: relative;
+    top: 130px;
+}
+
+
+
+
+/* Main Fifth Section End */
+
+

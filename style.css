@@ -638,10 +638,232 @@ main{
     position: relative;
     top: 130px;
 }
-
-
-
-
 /* Main Fifth Section End */
 
 
+/* Main Sixth Section  */
+
+.main_wrapper_sixthsection{
+    width: 100%;
+    padding: 8rem 6rem;
+    background-color: #f9f9f9;
+}
+
+.sixthsection-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.wrapper-header-s{
+    width: 45%;
+    background-color: #14b78a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.header_h2_container h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper_sections_container{
+    display: flex;
+    gap: 2rem;
+}
+
+.wrapper_sections_container .first-section{
+    max-width: 45%;
+    display: flex;
+    gap: 0.2rem;
+}
+
+
+.first-section-leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+.services-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-variations{
+    padding: 1rem;
+}
+
+.services-variations .variations_list{
+    list-style: none;
+    display: grid;
+    justify-items: left;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+    color: #999;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.variations_list li{
+    text-align: center;
+    padding: 0.3rem 0.2rem;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+}
+
+.leftside_boxes h2{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boxes-connections{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.connections-pictures ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    column-gap: 0.5rem;
+    width: 100%;
+}
+
+.connections-pictures ul li{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+}
+
+.boxes-proposal .proposal-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.proposal-texts span{
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.first-section-rightside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    gap: 2.2rem;
+}
+
+
+.about-texts, .email-texts, .call-texts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.rightside_boxes h2{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rightside_boxes p{
+    font-size: 1.2rem;
+    color: #999;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.section-fields{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.section-fields input{
+    padding: 1rem 0.4rem;
+    width: 15rem;
+    color: #999;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+}
+
+.section-services ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-services ul li{
+    background-color: #fff;
+    min-width: 100px;
+    height: 60px;
+    border-radius: 0.2rem;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.section-services span{
+    color: #999;
+    font-size: 1.1rem;
+}
+
+.section-comment textarea{
+    min-width: 510px;
+    max-width: 510px;
+    max-height: 100px;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #999;
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.section-button a{
+    display: block;
+    justify-self: right;
+    padding: 1rem 1rem;
+    background-color: #14b78a;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+/* Main Sixth Section End */
